@@ -1,0 +1,8 @@
+{
+  "name": "Pharr By Faith",
+  "description": "A compassionate, faith-centered sanctuary for women navigating the journey of healing and recovery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

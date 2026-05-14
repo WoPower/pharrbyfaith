@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "EB Garamond", serif;
+  --font-sans: "Montserrat", sans-serif;
+
+  --color-surface: #fef8f3;
+  --color-surface-dim: #ded9d4;
+  --color-surface-bright: #fef8f3;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f8f3ee;
+  --color-surface-container: #f2ede8;
+  --color-surface-container-high: #ece7e2;
+  --color-surface-container-highest: #e6e2dd;
+  --color-on-surface: #1d1b19;
+  --color-on-surface-variant: #4a454c;
+  --color-inverse-surface: #32302d;
+  --color-inverse-on-surface: #f5f0eb;
+  --color-outline: #7b757d;
+  --color-outline-variant: #ccc4cc;
+  --color-primary: #685874;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #cdb9d9;
+  --color-on-primary-container: #584863;
+  --color-secondary: #525e7b;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #d0dcff;
+  --color-on-secondary-container: #55617d;
+  --color-tertiary: #6d5679;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #d2b6de;
+  --color-on-tertiary-container: #5c4668;
+  --color-background: #fef8f3;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-on-surface font-sans;
+  }
+  h1, h2, h3, h4, .font-serif {
+    @apply font-serif;
+  }
+}
+
+.soft-glow {
+  box-shadow: 0 4px 24px -2px rgba(82, 94, 123, 0.04);
+}
